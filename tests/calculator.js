@@ -30,7 +30,7 @@ describe('demo calculation tests' , function()
         homepage.enterSecondNumber('7');
         homepage.clickGo1();
 
-        browser.sleep(6000);
+        browser.sleep(2000);
 
         homepage.verifyResult('130');
 
